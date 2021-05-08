@@ -1,0 +1,25 @@
+{
+	"name": "songselect",
+	"version": "1.0.0",
+	"description": "Hello, this is the beginning of our song select game that will be programmed using Node.js and React.",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/simonlee9504/songselect.git"
+	},
+	"author": "Simon Lee and Tony Tian",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/simonlee9504/songselect/issues"
+	},
+	"homepage": "https://github.com/simonlee9504/songselect#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.7",
+		"react": "^17.0.2"
+	}
+}
