@@ -9,16 +9,20 @@ Founding contributors are: [Tony Tian](https://github.com/tonytian2357) and [Sim
 ## Installation
 
 ### Dependencies
-- Node.js (currently being developed using `14.17.0 LTS`)
-- TBD (database)
+
+-   Node.js (currently being developed using `14.17.0 LTS`)
+-   TBD (database)
 
 ### Steps
+
 1. Clone this `git` repository using
+
 ```
 git clone https://github.com/simonlee9504/songselect.git
 ```
 
 2. Install `npm` packages
+
 ```
 npm install
 ```
