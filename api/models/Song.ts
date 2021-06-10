@@ -1,7 +1,8 @@
-import Album from './Album';
-
-export default class Song {
+import { Album, Artist } from '.';
+export default interface Song {
 	name: String;
-	album: Album;
-	duration: Number;
+	artists: Array<Artist>;
+	album: Album; // Album may not contain all songs within the same album
+	duration: Number; // In seconds
+	track: String; // File Path or URL
 }

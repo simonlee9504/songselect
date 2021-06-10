@@ -1,3 +1,3 @@
-export default class Artist {
+export default interface Artist {
 	name: String;
 }
