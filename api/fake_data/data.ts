@@ -1,4 +1,4 @@
-import { Album, Artist, Song, Playlist } from '../models';
+import type { Album, Artist, Song, Playlist } from '../models';
 import moment from 'moment';
 
 const artist1: Artist = {
@@ -10,7 +10,7 @@ const album1: Album = {
 	songs: [],
 	cover: './data/THE_BOOK/cover.jpg',
 	artists: [artist1],
-	releaseDate: moment('January 6, 2021').toDate(),
+	releaseDate: moment('2021-01-06').toDate(),
 };
 
 const song1: Song = {

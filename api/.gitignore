@@ -6,4 +6,4 @@ package-lock.json
 /dist
 
 # sensitive data
-/fake_data/data
+/fake_data/test_data
