@@ -1,25 +1,23 @@
 {
 	"name": "songselect",
-	"version": "1.0.0",
-	"description": "Hello, this is the beginning of our song select game that will be programmed using Node.js and React.",
-	"main": "app.js",
+	"version": "0.1.0",
+	"description": "Hello, this is the beginning of our song select game that will be programmed using Node.js, React-Redux, and TypeScript.",
 	"scripts": {
-		"dev": "nodemon app.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start-dev": "concurrently \"cd ./api && npm run start\" \"cd ./client && npm run start\"",
+		"install-dev": "npm install && concurrently \"cd ./api && npm install --production=false\" \"cd ./client && npm install --production=false\"",
+		"build": "concurrently \"cd ./api && npm run build\" \"cd ./client && npm run build\""
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/simonlee9504/songselect.git"
 	},
-	"author": "Simon Lee and Tony Tian",
+	"author": "Tony Tian, Simon Lee, and Ethan Yap",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/simonlee9504/songselect/issues"
 	},
 	"homepage": "https://github.com/simonlee9504/songselect#readme",
-	"dependencies": {
-		"express": "^4.17.1",
-		"nodemon": "^2.0.7",
-		"react": "^17.0.2"
+	"devDependencies": {
+		"concurrently": "^6.2.0"
 	}
 }
