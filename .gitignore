@@ -1,2 +1,9 @@
-node_modules/
+# dependencies
+/node_modules
 package-lock.json
+
+# environment variables
+.env
+
+# macos garbage
+.DS_Store
